@@ -20,5 +20,6 @@ let iLoveTheBeatles = num => {
   do {
     array.push("I love the Beatles!");
     num += 1
-  } while (num < 15)
-} return array
+  } while (num < 15);
+  return array
+}

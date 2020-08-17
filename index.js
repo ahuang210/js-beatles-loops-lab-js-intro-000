@@ -6,9 +6,8 @@ let theBeatlesPlay = (musicians, instruments) => {
   } return array
 }
 
-let i = 0
-
 let johnLennonFacts = facts => {
+  let i = 0;
   while (i < facts.length) {
     facts.splice(i, 1, `${facts[i]}!!!`);
     i += 1
